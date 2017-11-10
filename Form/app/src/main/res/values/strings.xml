@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" align="center">Form</string>
+    <string name="feedbacktitle">Here is a simple form example. Enjoy!</string>
+    <string name="feedbackname">Provide your full name</string>
+    <string-array name="sex_array">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+    </string-array>
+</resources>

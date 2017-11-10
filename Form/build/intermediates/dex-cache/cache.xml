@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_3e173d1e848aec681da5fdee98290cbf3759b13e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/.android/build-cache/7c41bd8d96a23304079dc56a2135cb2b54d3a7e5/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/classes_60ab79e5015b5d9579b502b1c61e31c86d3d578a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/.android/build-cache/61ae296bde76979e62623e1fbc564cc49188ed05/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/classes_f21ae3210afa9d33af6a418b7dde00561aadcbf3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/.android/build-cache/d401862e0c67551cbe5c5ea58c4e16ebe45a0eab/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/classes_93d3ca7b85ace82a029857d8108f349011acfea7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/.android/build-cache/414bf1551186dee278148a1ab814d7c4a1543e28/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/classes_8789c4ffed9390b4766da04e3cef62c91410b1c7.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_f4313db11c5e05d295e3b91916c56264683451fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/.android/build-cache/528487604bd7f31886c93847b9e47f786c5bcbfa/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/classes_1927858f8b48e7feba57b0a46ce59a980a1eea93.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/support-annotations-26.0.0-alpha1_0a8aee8e2e66fba865e3f6724a445f44aea28b92.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/.android/build-cache/30c1caf7e80a4de9e49862f911ef1e3c1538ff8d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/classes_3bc9829846bbfedef353a3428483b02ed32cdab2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/.android/build-cache/f1e4a4ec7c45f5dab3cdc03a70608b988507845e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/classes_872ef08946287f8c9d780aacb4012b2d13a088bf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/.android/build-cache/b5c0c91b8e68dbc17a1dcca6348df98be81585bc/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/classes_d4c97369103588a1652be5187aecb74adee01f54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/.android/build-cache/4382af34c0b125724f761adaac954fa66b0bde0a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/classes_022f3e2d7b87915db8bbd198f30444219e348dfb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/tudorfenesan/.android/build-cache/a4ad01aeac4075c8b4723bccff60e586d045d1a8/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/pre-dexed/debug/classes_76bf39888a89d255f17c41d9a2560f305c962159.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="9dad62b6f37c668ff2fa00dc2d8d31b5a4f87aa8">
+        <dex dex="/Users/tudorfenesan/AndroidStudioProjects/Form/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_87bde66625afa8647b10969c6f65540dbcf58a52/classes.dex" />
+    </item>
+
+</items>
