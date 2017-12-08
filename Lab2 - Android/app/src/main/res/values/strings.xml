@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">AndroidImpl</string>
+    
+    <string-array name="warranty_status">
+        <item>In warranty</item>
+        <item>Not in warranty</item>
+    </string-array>
+    
+</resources>

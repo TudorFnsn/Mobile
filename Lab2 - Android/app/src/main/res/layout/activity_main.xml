@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_main"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:paddingBottom="@dimen/activity_vertical_margin"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="@dimen/activity_vertical_margin"
+              android:weightSum="1"
+              tools:context="com.example.cristina.marina.androidimpl.MainActivity">
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:hint="Name..."
+        android:textColorLink="@android:color/holo_green_light"/>
+
+    <EditText
+        android:id="@+id/addressInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/nameInput"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Address..."
+        android:textColorLink="@android:color/holo_green_light"/>
+
+    <EditText
+        android:id="@+id/productNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/addBtn"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Product name..."
+        android:textColorLink="@android:color/holo_green_light"/>
+
+    <EditText
+        android:id="@+id/descriptionInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Description..."
+        android:textColorLink="@android:color/holo_green_light"/>
+
+
+    <Spinner
+        android:id="@+id/warrantyid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:entries="@array/warranty_status">
+    </Spinner>
+
+    <Button
+        android:id="@+id/addBtn"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="30sp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/addressInput"
+        android:background="@android:color/holo_green_dark"
+        android:elevation="0dp"
+        android:fontFamily="serif-monospace"
+        android:text="Add"/>
+
+    <Button
+        android:id="@+id/refreshBtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/productNameInput"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/holo_orange_dark"
+        android:text="Load requests from disk"/>
+
+    <Button
+        android:id="@+id/sendMailBtn"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_above="@+id/descriptionInput"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/holo_blue_bright"
+        android:onClick="sendMail"
+        android:text="Send mail"/>
+
+
+    <ListView
+        android:id="@+id/myListView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/descriptionInput"
+        android:layout_marginTop="2dp"
+        android:textAlignment="center"/>
+
+</LinearLayout>
+
