@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--Put form controls here-->
+    <TextView
+        android:id="@+id/TextViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Feedback"
+        android:textSize="10pt">
+    </TextView>
+
+    <EditText
+        android:id="@+id/EditTextName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:inputType="textPersonName">
+    </EditText>
+
+    <EditText
+        android:id="@+id/EditTextEmail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:inputType="textEmailAddress">
+    </EditText>
+
+    <Spinner
+        android:id="@+id/SpinnerFeedbackType"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/feedbacktypelist"
+        android:prompt="@string/feedbacktype2">
+
+    </Spinner>
+
+    <EditText
+        android:id="@+id/EditTextFeedbackBody"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Feedback text"
+        android:inputType="textMultiLine"
+        android:lines="5">
+    </EditText>
+
+    <CheckBox
+        android:id="@+id/CheckBoxResponse"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Would you like an email response?">
+    </CheckBox>
+
+    <Button
+        android:id="@+id/ButtonSendFeedback"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendFeedback"
+        android:text="send Feedback">
+    </Button>
+
+
+</LinearLayout>

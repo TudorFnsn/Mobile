@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+
+    <Button
+        android:id="@+id/inputFormButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="inputForm"
+        android:text="@string/input_form"/>
+
+    <Button
+        android:id="@+id/listElementsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="listElements"
+        android:text="@string/list_elements"/>
+
+    <Button
+        android:id="@+id/recycleViewButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="recycleView"
+        android:text="@string/recyle_view"/>
+
+</LinearLayout>
