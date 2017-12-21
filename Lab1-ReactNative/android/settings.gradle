@@ -1,0 +1,3 @@
+rootProject.name = 'PowerfulOrganizer_ReactNative'
+
+include ':app'
